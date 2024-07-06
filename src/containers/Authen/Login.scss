@@ -1,0 +1,90 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 54, 1) 100%);
+
+    .login-container {
+        width: 400px;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 550px;
+
+        .login-content {
+            padding: 30px;
+
+
+            .text-login {
+                text-align: center;
+                font-weight: 600;
+                font-size: 30px;
+                padding-top: 20px;
+            }
+
+            .login-input {
+                margin: 10px 0;
+            }
+
+            .btn-login {
+                width: 100%;
+                height: 30px;
+                margin: 10px 0;
+                outline: none;
+                border: none;
+                border-radius: 20px;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 54, 1) 100%);
+            }
+
+            .forgot-password {
+                font-size: 12px;
+            }
+
+            .social-login {
+                display: flex;
+                font-size: 25px;
+                justify-content: center;
+                margin-top: 10px;
+
+                .google {
+                    margin: 5px;
+                    background: rgb(235, 74, 74);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+
+                .facebook {
+                    margin: 5px;
+                    background: rgb(82, 82, 226);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+
+                .twitter {
+                    margin: 5px;
+                    background: rgb(48, 153, 210);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}
